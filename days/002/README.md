@@ -63,4 +63,4 @@ Your goal is to write a Swift playground that:
 ```
 
 
-Solution [here](CelsiusToFahrenheit.playground/Contents.swift)
+### Solution [here](CelsiusToFahrenheit.playground/Contents.swift)
