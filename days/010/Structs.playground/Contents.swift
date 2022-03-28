@@ -88,3 +88,35 @@ struct Player {
 let player = Player(name: "Megan R")
 print(player.number)
  
+struct BankAccount {
+    private var funds = 0
+    
+    mutating func deposit(amount: Int) {
+        funds += amount
+    }
+
+    mutating func withdraw(amount: Int) -> Bool {
+        if funds > amount {
+            funds -= amount
+            return true
+        } else {
+            return false
+        }
+    }
+}
+
+struct AppData {
+    static let version = "1.3 beta 2"
+    static let saveFilename = "settings.json"
+    static let homeURL = "https://www.hackingwithswift.com"
+}
+
+print(AppData.version)
+
+struct EmployeeData {
+    let username: String
+    let password: String
+
+    static let example = EmployeeData(username: "cfederighi", password: "hairforceone")
+}
+
