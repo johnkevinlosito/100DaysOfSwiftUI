@@ -13,3 +13,5 @@ This last part is a wrap up/review plus a challenge.
 3. Change the tip percentage picker to show a new screen rather than using a segmented control, and give it a wider range of options – everything from 0% to 100%. Tip: use the range 0..<101 for your range rather than a fixed array.
 
 I decided not to do the third one because I find it better in terms of UI/UX to use segmented control and just a couple of items to choose from. :wink:
+
+![output](../../assets/wesplit.mov)
